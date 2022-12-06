@@ -15,9 +15,9 @@ Because events came with complete embedded venue and attraction information, and
 Through testing, I found that the more populus states had up to 900 events in a single day. This is close to but less than the 1000 element limit.
 
 The code is broken into three phases all which save out .csv files. 
-### Phase 1: Get event json files.
+### Step 1: Get event json files.
 This step saves unflatted json files as .csv files.
-### Phase 2: Flatten & Expand jsons
+### Step 2: Flatten & Expand jsons
 This step saves a csv with desired information extracted and flattened. Events are duplicated when there are multiple attractions. For example a NBA game will have two records, one for each teamm playing.
-### To Do: Phase 3: Combine all files into one csv.
-### To Do: Phase 4: Wrangle data and combine with master events database.
+### To Do: Step 3: Combine all files into one csv.
+### To Do: Step 4: Wrangle data and combine with master events database.
